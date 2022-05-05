@@ -1,3 +1,6 @@
 F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lib\MyLB.java
+F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lib\LoadBalancer.java
+F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\myrule\MyselfRule.java
 F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
 F:\javastudy\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java

@@ -1,3 +1,6 @@
 com\atguigu\springcloud\OrderMain80.class
 com\atguigu\springcloud\controller\OrderController.class
 com\atguigu\springcloud\config\ApplicationContextConfig.class
+com\atguigu\myrule\MyselfRule.class
+com\atguigu\springcloud\lib\LoadBalancer.class
+com\atguigu\springcloud\lib\MyLB.class

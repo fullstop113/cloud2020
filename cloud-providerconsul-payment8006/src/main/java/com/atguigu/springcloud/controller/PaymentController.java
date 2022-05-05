@@ -1,4 +1,4 @@
-package controller;
+package com.atguigu.springcloud.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,15 +14,12 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
-/*    @RequestMapping(value = "/payment/consul")
-    public String paymentConsul() {
-        return "springcloud with consul: " + serverPort + "\t   " + UUID.randomUUID().toString();
-    }*/
 @RequestMapping(value = "/payment/consul")
 public String paymentConsul()
 {
     return "springcloud with consul: "+serverPort+"\t"+ UUID.randomUUID().toString();
 }
+
 }
 
 

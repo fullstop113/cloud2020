@@ -2,11 +2,11 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
+import com.atguigu.springcloud.service.PaymentService;
 
 import javax.annotation.Resource;
 
@@ -42,6 +42,10 @@ public class PaymentController {
     @GetMapping("/payment/dicovery")
     public DiscoveryClient discovery(){
         return this.discoveryClient;
+    }
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;//返回服务接口
     }
 
 }
